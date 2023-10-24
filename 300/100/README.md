@@ -4,7 +4,7 @@
 
 Based on "Getting Started" at https://github.com/shannonhochkins/ha-dashboard
 
-Install the software from this repository on a system that has NodeJS installed, for generating the build files necessary for copying into Home Assistant later.
+Install the software from this repository on a system that has NodeJS installed, for generating the build files necessary for copying into Home Assistant later. Alternatively, open this repository in a cloud-based workspace such as offered by GitPod.
 
 ```
 npm install
