@@ -1,5 +1,5 @@
-home-assistant-custom-dashboard
-# Home Assistant Custom Dashboard
+home-assistant-dashboard
+# Home Assistant Dashboard
 
 Based on "Home Assistant Dashboard" at https://github.com/shannonhochkins/ha-dashboard
 
