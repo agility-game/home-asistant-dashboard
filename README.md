@@ -1,7 +1,9 @@
 home-assistant-dashboard
 # Home Assistant Dashboard
 
-Based on "Home Assistant Dashboard" at https://github.com/shannonhochkins/ha-dashboard
+Based on "Home Assistant Dashboard" at https://github.com/shannonhochkins/ha-dashboard 
+
+NOTE: The above repository has moved and can now be found as "ha-component-kit" at https://github.com/shannonhochkins/ha-component-kit
 
 ## 100 - Introduction
 
