@@ -120,4 +120,33 @@ $ npm run sync
 
 The above command will **sync** the files between this workspace's ```dist``` directory and the files stored within Home Assistant.
 
+If when trying to open the preview by running ```npm run dev``` you see the following:
+
+```
+Succesfully Authenticated!
+The time below should be updating from home asisstant every minute
+
+Time or Date sensor is unavailable, please add the "time" & "date" display options to the "date_time" sensor to your configuration.yaml in Home Assistant.
+
+You can follow the guide here (https://www.home-assistant.io/integrations/time_date/).
+
+You have 130 entities to start automating with! Have fun!
+```
+
+Follow the instructions as given at https://www.home-assistant.io/integrations/time_date/
+
+After fixing Date & Time as described above, when opening the preview you should now see instead:
+
+```
+Succesfully Authenticated!
+The time below should be updating from home asisstant every minute
+
+04:50 PM
+Wednesday, November 1st, 2023
+
+You have 138 entities to start automating with! Have fun!
+```
+
+**Note**: Time & date as well as the number of entities will differ, but that is not a failure.
+
 MORE ...
