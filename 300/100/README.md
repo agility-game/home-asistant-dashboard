@@ -66,7 +66,7 @@ agility-dashboard/.env
 **TIP**: See for the values for SSH, this https://shannonhochkins.github.io/ha-component-kit/?path=/docs/introduction-deploying--docs
 
 
-If you receive this error (UNKNOWN FILE EXTENSION ".ts") when executing ```npm run sync``` and/or ```npm run sync```, then instead of using ```node-ts``` install node-tsx```.
+If you receive this error (UNKNOWN FILE EXTENSION ".ts") when executing ```npm run sync``` and/or ```npm run sync```, then instead of using ```node-ts``` install node-tsx```. This solution was found at https://stackoverflow.com/questions/63742790/unable-to-import-esm-ts-module-in-node/65163089#65163089
 
 ```
 $ cd agility-dashboard
