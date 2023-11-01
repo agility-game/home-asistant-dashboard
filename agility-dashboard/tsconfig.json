@@ -20,6 +20,11 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["sync-types.ts", ".d.ts", "src"],
+  /* Fix UNKNOWN FILE EXTENSION ".ts" */
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+  },
+  "include": ["supported-types.d.ts", "sync-types.ts", ".d.ts", "src"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

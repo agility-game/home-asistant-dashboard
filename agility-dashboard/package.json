@@ -9,9 +9,9 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "prettier": "prettier --write .",
-    "sync": "npx ts-node --esm ./sync-types.ts",
+    "sync": "npx tsx ./sync-types.ts",
     "prebuild": "npm run prettier && npm run sync",
-    "deploy": "npx ts-node --esm scripts/deploy.ts"
+    "deploy": "npx tsx scripts/deploy.ts"
   },
   "dependencies": {
     "@hakit/components": "^2.3.0",
@@ -32,6 +32,8 @@
     "eslint-plugin-react-refresh": "^0.4.3",
     "node-scp": "^0.0.23",
     "prettier": "^3.0.3",
+    "ts-node": "^10.9.1",
+    "tsx": "^3.14.0",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
   }
