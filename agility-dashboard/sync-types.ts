@@ -1,5 +1,5 @@
-import { typeSync } from '@hakit/core/sync';
-import { config } from 'dotenv';
+import { typeSync } from "@hakit/core/sync";
+import { config } from "dotenv";
 config();
 
 (async function () {
@@ -7,4 +7,4 @@ config();
     url: process.env.VITE_HA_URL!,
     token: process.env.VITE_HA_TOKEN!,
   });
-}())
+})();
