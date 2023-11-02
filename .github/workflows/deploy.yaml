@@ -30,12 +30,23 @@ jobs:
 
   deploy-production:
     name: Deploy to production
+    # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+    permissions:
+      contents: read
+      pages: write
+      id-token: write    
     environment:
       name: Production
+      url: ${{ steps.build-publish.outputs.page_url }}
     needs: [deploy-staging]
     runs-on: ubuntu-latest
     steps:
       - run: echo Deploy to production using {{ secrets.mysecret }}
+      - id: build-publish
+        uses: bitovi/github-actions-react-to-ghp@v1.2.0
+        with:
+          path: storybook-static
+          build_command: NODE_ENV=production npm run build && npm run build:storybook
     
 #  deploy:
 #    # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
