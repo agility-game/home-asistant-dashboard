@@ -7,6 +7,8 @@ Based on "Home Assistant Dashboard" at https://github.com/shannonhochkins/ha-das
 
 **NOTE**: The above repository has moved and can now be found as "ha-component-kit" at https://github.com/shannonhochkins/ha-component-kit and accompanying documentation at https://shannonhochkins.github.io/ha-component-kit/?path=/story/introduction-overview--default
 
+Based on "Storybook for React tutorial" at https://storybook.js.org/tutorials/intro-to-storybook/react/en/get-started/
+
 The documentation can be read at https://agility-game.github.io/home-assistant-dashboard/
 
 ## 100 - Introduction
