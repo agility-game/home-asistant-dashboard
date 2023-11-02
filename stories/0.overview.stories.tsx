@@ -209,7 +209,7 @@ export default {
     },
     docs: {
       description: {
-        component: `@hakit provides a series of tools to easily authenticate and communicate with your home assistant instance from React!`
+        component: `@hakit provides a series of tools to easily authenticate and communicate with your home assistant instance from React! HELLO WORLD!`
       }
     }
   },
