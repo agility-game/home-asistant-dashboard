@@ -5,10 +5,19 @@ name: Deploy
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, test ]
 #      - "master"
 #  workflow_dispatch:
 jobs:
+
+  deploy-testing:
+    name: Deploy to testing
+    environment:
+      name: Testing
+    if: github.event-ref == 'refs/heads/test'  
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo Deploy to testing using ${{ secrets.mysecret-test }}
 
   deploy-staging:
     name: Deploy to staging
