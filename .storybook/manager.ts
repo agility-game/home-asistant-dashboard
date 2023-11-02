@@ -3,7 +3,7 @@ import { create } from '@storybook/theming/create';
 const theme = create({
     base: 'dark',
     brandUrl: 'https://www.npmjs.com/package/@hakit/core',
-    brandImage: process.env.NODE_ENV === 'production' ? '/ha-agility/logo.png' : '/logo.png',
+    brandImage: process.env.NODE_ENV === 'production' ? '/home-assistant-dashboard/logo.png' : '/logo.png',
     brandTarget: '_self',
 });
 
