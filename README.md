@@ -11,6 +11,8 @@ Based on "Storybook for React tutorial" at https://storybook.js.org/tutorials/in
 
 The documentation can be read at https://agility-game.github.io/home-assistant-dashboard/
 
+*****WE ARE HERE (inside docs folder)*****: https://storybook.js.org/tutorials/intro-to-storybook/react/en/composite-component/
+
 ## 100 - Introduction
 
 See [README.md](./100/README.md)
