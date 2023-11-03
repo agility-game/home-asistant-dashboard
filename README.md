@@ -13,7 +13,11 @@ Based on "Problems and Solutions Upgrading to Storybook 7" at https://betterprog
 
 The documentation can be read at https://agility-game.github.io/home-assistant-dashboard/
 
-*****WE ARE HERE (inside docs folder)*****: https://storybook.js.org/tutorials/intro-to-storybook/react/en/data/
+*****WE ARE HERE (inside docs folder)*****: https://storybook.js.org/tutorials/intro-to-storybook/react/en/screen/
+
+**WARNING**: In our ```docs``` directory, where we are using StoryBook, one needs to upgrade yarn to at least version 3 to avoid build errors. 
+
+```yarn upgrade```
 
 ## 100 - Introduction
 
