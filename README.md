@@ -13,7 +13,7 @@ Based on "Problems and Solutions Upgrading to Storybook 7" at https://betterprog
 
 The documentation can be read at https://agility-game.github.io/home-assistant-dashboard/
 
-*****WE ARE HERE (inside docs folder)*****: https://storybook.js.org/tutorials/intro-to-storybook/react/en/composite-component/
+*****WE ARE HERE (inside docs folder)*****: https://storybook.js.org/tutorials/intro-to-storybook/react/en/data/
 
 ## 100 - Introduction
 
