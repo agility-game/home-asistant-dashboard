@@ -9,6 +9,8 @@ Based on "Home Assistant Dashboard" at https://github.com/shannonhochkins/ha-das
 
 Based on "Storybook for React tutorial" at https://storybook.js.org/tutorials/intro-to-storybook/react/en/get-started/
 
+Based on "Problems and Solutions Upgrading to Storybook 7" at https://betterprogramming.pub/problems-and-solutions-upgrading-to-storybook-7-62c868b23af4
+
 The documentation can be read at https://agility-game.github.io/home-assistant-dashboard/
 
 *****WE ARE HERE (inside docs folder)*****: https://storybook.js.org/tutorials/intro-to-storybook/react/en/composite-component/
