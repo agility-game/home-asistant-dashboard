@@ -16,9 +16,9 @@ jobs:
     if: github.event.ref == 'refs/heads/test'  
     runs-on: ubuntu-latest
     # Set working-directory
-    defaults:
-      run:
-        working-directory: 'docs'
+    # defaults:
+    #   run:
+    #     working-directory: 'docs'
     steps:
       - name: List directory
         run: ls
@@ -32,9 +32,9 @@ jobs:
     if: github.event.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     # Set working-directory
-    defaults:
-      run:
-        working-directory: 'docs'    
+    # defaults:
+    #   run:
+    #     working-directory: 'docs'    
     steps:
       - name: List directory
         run: ls
@@ -54,9 +54,9 @@ jobs:
     needs: [deploy-staging]
     runs-on: ubuntu-latest
     # Set working-directory
-    defaults:
-      run:
-        working-directory: 'docs'    
+    # defaults:
+    #   run:
+    #     working-directory: 'docs'    
     steps:
       - name: List directory
         run: ls
