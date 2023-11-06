@@ -13,7 +13,7 @@ Based on "Problems and Solutions Upgrading to Storybook 7" at https://betterprog
 
 The documentation can be read at https://agility-game.github.io/home-assistant-dashboard/
 
-Publish Storybook (inside ```docs`````` directory) to Chromatic's secure CDN for the first time with the following command:
+Publish Storybook (inside ```docs``` directory) to Chromatic's secure CDN for the first time with the following command:
 
 ```
 npx chromatic --project-token=chpt_98d934ebe677155
