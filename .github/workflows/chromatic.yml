@@ -8,16 +8,21 @@ on: push
 # List of jobs
 jobs:
   test:
+    name: Run tests
     # Operating System
     runs-on: ubuntu-latest
     # Job steps
     steps:
-      - uses: actions/checkout@v3
+      - name: Check out repository code
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - run: yarn
+      - name: Install dependencies
+        run: yarn
+        working-directory: ./docs
         #👇 Adds Chromatic as a step in the workflow
-      - uses: chromaui/action@v1
+      - name: Use Chroma UI
+        uses: chromaui/action@v1
         # Options required for Chromatic's GitHub Action
         with:
           #👇 Chromatic projectToken, see https://storybook.js.org/tutorials/intro-to-storybook/react/en/deploy/ to obtain it
