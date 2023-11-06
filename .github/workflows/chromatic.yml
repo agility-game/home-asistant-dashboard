@@ -5,6 +5,11 @@ name: 'Chromatic Deployment'
 # Event for the workflow
 on: push
 
+# Set working-directory
+defaults:
+  run:
+    working-directory: 'docs'
+
 # List of jobs
 jobs:
   test:
