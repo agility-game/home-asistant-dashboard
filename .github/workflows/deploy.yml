@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo Deploy to testing using ${{ secrets.mysecret }}
-        working-directory: ../docs
+        working-directory: docs
 
   deploy-staging:
     name: Deploy to staging
@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo Deploy to staging using ${{ secrets.mysecret }}
-        working-directory: ../docs
+        working-directory: docs
 
   deploy-production:
     name: Deploy to production
@@ -43,7 +43,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo Deploy to production using {{ secrets.mysecret }}
-        working-directory: ../docs
+        working-directory: docs
       - id: build-publish
         uses: bitovi/github-actions-react-to-ghp@v1.2.0
         with:
