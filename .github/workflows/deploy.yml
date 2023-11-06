@@ -55,7 +55,7 @@ jobs:
     #     working-directory: 'docs'
     steps:
       - run: echo Deploy to production using {{ secrets.mysecret }}
-        # working-directory: 'docs'
+        working-directory: 'docs'
       - id: build-publish
         uses: bitovi/github-actions-react-to-ghp@v1.2.0
         with:
