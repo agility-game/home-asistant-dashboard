@@ -20,6 +20,8 @@ jobs:
       run:
         working-directory: 'docs'
     steps:
+      - name: List directory
+        run: ls
       - run: echo Deploy to testing using ${{ secrets.mysecret }}
         working-directory: 'docs'
 
@@ -34,6 +36,8 @@ jobs:
       run:
         working-directory: 'docs'    
     steps:
+      - name: List directory
+        run: ls
       - run: echo Deploy to staging using ${{ secrets.mysecret }}
         working-directory: 'docs'
 
@@ -54,6 +58,8 @@ jobs:
       run:
         working-directory: 'docs'    
     steps:
+      - name: List directory
+        run: ls
       - run: echo Deploy to production using {{ secrets.mysecret }}
         working-directory: 'docs'
       - id: build-publish
