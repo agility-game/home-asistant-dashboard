@@ -28,6 +28,13 @@ If you're running Chromatic via continuous integration, we recommend setting
 the CHROMATIC_PROJECT_TOKEN environment variable in your CI environment.
 You can then remove the --project-token from your package.json script.
 
+For a simple HTTP server to view a Storybook build locally, you can run: 
+
+```
+$ cd docs
+$ npx http-server storybook-static
+```
+
 *****WE ARE HERE (inside docs folder)*****: https://storybook.js.org/tutorials/intro-to-storybook/react/en/test/
 
 **WARNING**: In our ```docs``` directory, where we are using StoryBook, one needs to upgrade yarn to at least version 3 to avoid build errors. 
