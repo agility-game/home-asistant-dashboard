@@ -37,6 +37,8 @@ $ npx http-server storybook-static
 
 Based on "Running GitHub Actions within Subdirectory" at https://tecadmin.net/running-github-actions-in-another-directory/
 
+Based on "How to Use GitHub Actions for Building Projects within Sub-Directories" at https://copyprogramming.com/howto/github-actions-how-to-build-project-in-sub-directory
+
 *****WE ARE HERE (inside docs folder)*****: https://storybook.js.org/tutorials/intro-to-storybook/react/en/test/
 
 **WARNING**: In our ```docs``` directory, where we are using StoryBook, one needs to upgrade yarn to at least version 3 to avoid build errors. 
