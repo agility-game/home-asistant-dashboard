@@ -19,16 +19,13 @@ jobs:
     # Job steps
     steps:
       - name: Check out repository code
-        working-directory: ./docs
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
       - name: Install dependencies
         run: yarn
-        working-directory: ./docs
         #👇 Adds Chromatic as a step in the workflow
       - name: Use Chroma UI
-        working-directory: ./docs
         uses: chromaui/action@v1
         # Options required for Chromatic's GitHub Action
         with:
