@@ -52,12 +52,12 @@ jobs:
     # Set working-directory
     # defaults:
     #   run:
-    #     working-directory: 'docs'    
+    #     working-directory: 'docs'
     steps:
       - run: echo Deploy to production using {{ secrets.mysecret }}
         # working-directory: 'docs'
       - id: build-publish
         uses: bitovi/github-actions-react-to-ghp@v1.2.0
         with:
-          path: storybook-static
+          path: docs/storybook-static
           build_command: NODE_ENV=production npm run build && npm run build:storybook
