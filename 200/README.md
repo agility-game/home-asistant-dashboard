@@ -3,7 +3,7 @@
 - An account with Nabu Casa (if you need access to your Home Assistant remotely).
 - A Home Assistant instance.
 - A public URL to your Home Assistant instance.
-- When trying to connect from outisde of your local Home Assistant's Wifi zone, Internet access.
+- When trying to connect from outside of your local Home Assistant's Wifi zone, Internet access.
 
 Optionally:
 
